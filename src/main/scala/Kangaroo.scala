@@ -2,7 +2,7 @@ object Kangaroo {
 
   // https://www.hackerrank.com/challenges/kangaroo/problem
   // o <= x1 <= x2 <= 10000
-  
+
   def kangaroo(x1: Int, v1: Int, x2: Int, v2: Int): String = {
     if(v2 >= v1) "NO"
 
